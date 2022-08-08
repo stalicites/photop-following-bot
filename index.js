@@ -1,6 +1,6 @@
 let elements = document.getElementsByClassName("previewFollowButton");
 let index = 0;
-let waitTime = 10000; // In MS
+let waitTime = 10000; // In MS, this should be around 10 seconds.
 
 for (let i = 0; i < elements.length; i++) {
   if (elements[i].style.backgroundColor != "rgb(255, 92, 92)" && i < elements.length) {
